@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /**
- * _myenv - prints the current environment
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- * Return: Always 0
+ * _my-env - prints the current environ
+ * @info: Struc containing potent argume. Used to maint
+ * const funct prototype.
+ * Ret: Always 0
  */
 int _myenv(info_t *info)
 {
@@ -13,11 +13,10 @@ int _myenv(info_t *info)
 }
 
 /**
- * _getenv - gets the value of an environ variable
- * @info: Structure containing potential arguments. Used to maintain
+ * _get-env gets the val of an environ var
+ * @info: Struct containing potent argum. Used to maint
  * @name: env var name
- *
- * Return: the value
+ * Ret: the val
  */
 char *_getenv(info_t *info, const char *name)
 {
@@ -35,11 +34,9 @@ char *_getenv(info_t *info, const char *name)
 }
 
 /**
- * _mysetenv - Initialize a new environment variable,
- *             or modify an existing one
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- *  Return: Always 0
+ * _my-setenv Initialize a new environment variable,or modify an existing one
+ * @info: Struc containing potential argu. Used to maintain const funct prototype.
+ *  Ret: Always 0
  */
 int _mysetenv(info_t *info)
 {
@@ -55,9 +52,8 @@ int _mysetenv(info_t *info)
 
 /**
  * _myunsetenv - Remove an environment variable
- * @info: Structure containing potential arguments. Used to maintain
- *        constant function prototype.
- * Return: Always 0
+ * @info: Struc containing potential argum. Used to maint constant function prototype.
+ * Ret: Always 0
  */
 int _myunsetenv(info_t *info)
 {
@@ -76,9 +72,8 @@ int _myunsetenv(info_t *info)
 
 /**
  * populate_env_list - populates env linked list
- * @info: Structure containing potential arguments. Used to maintain
- *          constant function prototype.
- * Return: Always 0
+ * @info: Struc containing potential argu. Used to maint constant funct prototype.
+ * Ret: Always 0
  */
 int populate_env_list(info_t *info)
 {

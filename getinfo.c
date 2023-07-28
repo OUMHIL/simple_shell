@@ -6,16 +6,16 @@
  */
 void clear_info(info_t *info)
 {
-	info->arg = NULL;
 	info->argv = NULL;
-	info->path = NULL;
+        info->path = NULL;
+	info->arg = NULL;
 	info->argc = 0;
 }
 
 /**
- * set_info - initializes info_t struct
- * @info: struct address
- * @av: argument vector
+ * set_info initializes info_t str
+ * @info: str address
+ * @av: argu vector
  */
 void set_info(info_t *info, char **av)
 {
@@ -44,9 +44,9 @@ void set_info(info_t *info, char **av)
 }
 
 /**
- * free_info - frees info_t struct fields
+ * free_info frees info_t struct fields
  * @info: struct address
- * @all: true if freeing all fields
+ * @all: true if free all fields
  */
 void free_info(info_t *info, int all)
 {
